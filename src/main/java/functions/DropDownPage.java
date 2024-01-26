@@ -14,8 +14,7 @@ public class DropDownPage extends ReusableLib {
 	}
 
 	public void isDropDownValueSelected(String optionValue) {
-		Assert.assertEquals(isElementSelected(optionOptionOne), true,
-				"Expected option" + optionValue + "is not selected");
+		Assert.assertEquals(isElementSelected(optionOptionOne), true, "Expected option is not selected");
 		threadWait(2000);
 	}
 }

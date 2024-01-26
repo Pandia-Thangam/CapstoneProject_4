@@ -1,5 +1,6 @@
 Feature: Validate loan personalized rate feature for Zopa
 
+@Smoke
   Scenario: Validating the loan form page
     Given I launch the HeroKuApp
     When I access the AB Testing page
